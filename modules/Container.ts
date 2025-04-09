@@ -35,7 +35,8 @@ export default class Container extends Rectangle {
 			this.color.R,
 			this.color.G,
 			this.color.B,
-			this.color.A
+			this.color.A,
+			false
 		);
 
 		for (var item of this.Items)

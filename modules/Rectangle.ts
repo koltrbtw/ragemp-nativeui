@@ -27,6 +27,6 @@ export default class Rectangle extends IElement {
 		const x = pos.X / 1280.0 + w * 0.5;
 		const y = pos.Y / 720.0 + h * 0.5;
 
-		mp.game.graphics.drawRect(x, y, w, h, color.R, color.G, color.B, color.A);
+		mp.game.graphics.drawRect(x, y, w, h, color.R, color.G, color.B, color.A, false);
 	}
 }

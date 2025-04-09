@@ -89,7 +89,7 @@ export default class ResText extends Text {
 		} else {
 			if (dropShadow) mp.game.ui.setTextDropshadow(2, 0, 0, 0, 0);
 
-			if (outline) console.warn('outline not working!');
+			if (outline) mp.game.ui.setTextOutline();
 
 			switch (textAlignment) {
 				case Alignment.Centered:
@@ -109,7 +109,7 @@ export default class ResText extends Text {
 
 		mp.game.ui.setTextEntry('CELL_EMAIL_BCON'); // THREESTRINGS
 		ResText.AddLongString(caption);
-		mp.game.ui.drawText(x, y);
+		mp.game.ui.drawText(x, y, 0);
 	}
 
 	public static AddLongString(text: string) {

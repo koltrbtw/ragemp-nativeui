@@ -31,6 +31,6 @@ export default class ResRectangle extends Rectangle {
 		const x = pos.X / width + w * 0.5;
 		const y = pos.Y / height + h * 0.5;
 
-		mp.game.graphics.drawRect(x, y, w, h, color.R, color.G, color.B, color.A);
+		mp.game.graphics.drawRect(x, y, w, h, color.R, color.G, color.B, color.A, false);
 	}
 }

@@ -93,7 +93,8 @@ export default class Sprite {
 			color.R,
 			color.G,
 			color.B,
-			color.A
+			color.A,
+			false
 		);
 	}
 }

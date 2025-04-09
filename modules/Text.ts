@@ -38,7 +38,7 @@ export default class Text extends IElement {
 		mp.game.ui.setTextCentre(centered);
 		mp.game.ui.setTextEntry('THREESTRINGS');
 		ResText.AddLongString(caption);
-		mp.game.ui.drawText(x, y);
+		mp.game.ui.drawText(x, y, 0);
 	}
 }
 

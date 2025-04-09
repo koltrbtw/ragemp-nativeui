@@ -14,8 +14,8 @@
 		"ajv": "^6.8.1"
 	},
 	"devDependencies": {
+		"@ragempcommunity/types-client": "^2.1.9",
 		"@types/node": "^10.12.12",
-		"@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#master",
 		"gulp": "^4.0.0",
 		"gulp-copy": "^4.0.1",
 		"ts-loader": "^5.3.1",
